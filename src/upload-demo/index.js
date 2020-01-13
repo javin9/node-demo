@@ -2,8 +2,8 @@
  * @Name: name
  * @Description: description
  * @Author: cupid(cupid@163.com)
- * @LastEditors: cupid
- * @LastEditTime: 2020-01-13 11:48:22
+ * @LastEditors  : cupid
+ * @LastEditTime : 2020-01-13 14:00:27
  * @LastEditContent: 
  */
 
@@ -11,6 +11,7 @@ const Koa = require('koa')
 const koaBody = require('koa-body')
 const Router = require('koa-router');
 const static = require('koa-static')
+const send = require('koa-send')
 
 const path = require('path')
 const fs = require('fs-extra')
@@ -28,7 +29,9 @@ router.get('/', async (ctx, next) => {
   ctx.body = read
 })
 
-//文件上传和下载
+/**
+ * 文件上传
+ */
 router.post(
   '/upload',
   koaBody({
@@ -64,10 +67,32 @@ router.post(
         url
       }
     }
-
   }
 )
 
+/**
+ * 文件下载
+ */
+router.get('/download/:name', async (ctx, next) => {
+  const name = ctx.params.name
+  const filePath = `./assets/${name}`
+  const result = fs.existsSync(path.resolve(__dirname, filePath))
+  console.log(result);
+
+  if (!result) {
+    ctx.body = {
+      code: 404,
+      message: '文件不存在'
+    }
+    return;
+  }
+  // response.attachment([filename], [options])
+  // 将 Content-Disposition 设置为 “附件” 以指示客户端提示下载。(可选)指定下载的 filename 和部分 参数。
+  // ctx.attachment(filePath)
+  console.log(filePath);
+
+  await send(ctx, filePath)
+})
 
 app.use(router.routes())
 app.use(router.allowedMethods())

@@ -2,8 +2,8 @@
  * @Name: name
  * @Description: description
  * @Author: liujianwei(liujianwei1213@163.com)
- * @LastEditors  : liujianwei
- * @LastEditTime : 2020-01-13 11:39:39
+ * @LastEditors  : cupid
+ * @LastEditTime : 2020-01-13 13:54:32
  * @LastEditContent: 
  -->
 <!DOCTYPE html>
@@ -24,6 +24,14 @@
         <el-button size="small" type="primary">点击上传</el-button>
         <div slot="tip" class="el-upload__tip">只能上传jpg/png文件，且不超过500kb</div>
       </el-upload>
+
+      <br />
+      <div>
+
+        <el-button type='primary' @click='download'>下载</el-button>
+        <el-input v-model="filename" placeholder="请输入下载的文件名称" />
+        <iframe name="iframeId" style="display:none"></iframe>
+      </div>
       <!-- <form action="http://localhost:3001/upload" method="post" enctype="multipart/form-data">
         <div>
           <input type="file" name="file">
@@ -47,7 +55,8 @@
         fileList: [],
         headers: {
           // 'Content-type': 'multipart/form-data'
-        }
+        },
+        filename: ''
       };
     },
     methods: {
@@ -62,6 +71,17 @@
       },
       beforeRemove(file, fileList) {
         return this.$confirm(`确定移除 ${file.name}？`);
+      },
+      download() {
+        if (!this.filename) {
+          this.$message({
+            type: 'error',
+            message: '请输入下载的文件名'
+          })
+          return
+        }
+
+        window.open(`http://localhost:3001/download/${this.filename}`, 'iframeId')
       }
     }
   })
