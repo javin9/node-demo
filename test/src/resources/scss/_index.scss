@@ -1,0 +1,148 @@
+@import "./mixins";
+@import "./variables";
+
+* {
+  box-sizing: border-box;
+  transition: background .2s, color .2s;
+}
+
+body, html {font-size: 62.5%}
+
+body {
+  margin: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  will-change: background-color;
+}
+
+h1, h2, h3, h4, p, a, q {
+  display: block;
+  line-height: 1.5em;
+  margin: 0;
+  margin-top: .5em;
+}
+
+h1[center], h2[center], h3[center], h4[center], p[center], a[center], q[center] {text-align: center}
+
+h1[title] {margin-bottom: map-get($spacing, large)}
+
+h1, h2, h3, h4 {
+  &[invert] {
+
+  }
+}
+
+h2, h3, h4 {
+  font-family: 'Poppins';
+}
+
+p, a, q {
+  font-family: 'Roboto';
+}
+
+a, q {
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: 'Cormorant Garamond';
+  font-weight: 300;
+  font-size: 32px;
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  font-size: 3rem;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 24px;
+  font-size: 2.4rem;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 18px;
+  font-size: 1.8rem;
+}
+
+
+p {
+  font-weight: 200;
+  font-size: 1.6rem;
+  font-size: 16px;
+  max-width: 500px;
+
+  &[bold] {
+    font-weight: 400;
+  }
+
+  &[small] {
+    font-size: 1.2rem;
+    font-size: 12px;
+  }
+
+  &[medium] {
+    font-size: 1.4rem;
+    font-size: 14px;
+  }
+
+  &[faded] {
+
+  }
+
+  &[invert] {
+
+  }
+}
+
+a {
+  position: relative;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &[hover]:before {
+    @include size(100%, 100%);
+    @include posAbs(-10px, 0, false, default);
+    @include smooth(transform, .2s);
+    content: "";
+    display: block;
+    z-index: -1;
+    padding: 0 10px;
+    transform: scaleX(0);
+    transform-origin: right center;
+  }
+
+  &:hover {
+    text-decoration: none;
+
+    &:before {
+      transform: scaleX(1);
+      transform-origin: left center;
+    }
+  }
+
+  &:focus {
+    outline: 0;
+    text-decoration: underline;
+  }
+}
+
+q {
+  font-style: italic;
+  max-width: 300px;
+
+  &[invert] {
+
+  }
+}
+
+::selection {
+
+}

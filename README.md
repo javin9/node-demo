@@ -1,22 +1,11 @@
-  PM2 is a Production Process Manager for Node.js applications
-                     with a built-in Load Balancer.
-
-                Start and Daemonize any application:
-                $ pm2 start app.js
-
-                Load Balance 4 instances of api.js:
-                $ pm2 start api.js -i 4
-
-                Monitor in production:
-                $ pm2 monitor
-
-                Make pm2 auto-boot at server restart:
-                $ pm2 startup
-
-                To go further checkout:
-                http://pm2.io/
-
-
+<!--
+ * @Name: name
+ * @Description: description
+ * @Author: cupid(cupid@163.com)
+ * @LastEditors  : cupid
+ * @LastEditTime : 2020-01-13 11:53:09
+ * @LastEditContent: 
+ -->
 ###
 ```bash
 pm2 start app.yml
@@ -38,9 +27,6 @@ mysql -u root -p
 #密码：123456 // 123456是密码
 
 mysql> ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456
-```
-{"K":"NAVGUJ8ZEVAPJAUW", "N":"52pojie", "O":"52pojie.cn", "DI":"NAVGUJ8ZEVAPJAUW", "T": 1575828781}
-
 
 ### 全站的思维脑图
 # node-demo
