@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js">
+  </script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+
+  <div id="app">
+    <template>
+      <el-form ref="form" :model="form" label-width="80px">
+        <el-form-item label="用户名">
+          <el-input v-model="form.username"></el-input>
+        </el-form-item>
+
+        <el-form-item label="密码">
+          <el-input v-model="form.pwd"></el-input>
+        </el-form-item>
+        <el-form-item>
+          <el-button type="primary" @click="onLogin">Login</el-button>
+          <el-button type="primary" @click="onLogout">Logout</el-button>
+          <el-button type="primary" @click="getUser">用户</el-button>
+        </el-form-item>
+      </el-form>
+    </template>
+  </div>
+  <script>
+    axios.interceptors.request.use(
+      config => {
+        const token = window.localStorage.getItem("token");
+        if (token) {
+          // 判断是否存在token，如果存在的话，则每个http header都加上token // Bearer是JWT的认证头部信息 
+          config.headers.common["Authorization"] = "Bearer " + token;
+        }
+        return config;
+      },
+      err => {
+        return Promise.reject(err);
+      });
+
+    new Vue({
+      data() {
+        return {
+          form: {
+            username: '',
+            pwd: ''
+          },
+          logs: []
+        }
+      },
+      methods: {
+        onLogin() {
+          axios.post('/api/login', this.form).then((res) => {
+            console.log(res.data);
+            localStorage.setItem("token", res.data.data.token);
+          })
+        },
+        onLogout() {
+
+        },
+        getUser() {
+          axios.get('/api/getDetail').then((res) => {
+            console.log(res.data);
+          })
+        }
+      }
+    }).$mount('#app')
+  </script>
+</body>
+
+</html>

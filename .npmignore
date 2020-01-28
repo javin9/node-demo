@@ -1,0 +1,22 @@
+# IDE
+.idea
+.editorconfig
+
+# doc
+.github
+
+# test
+test
+.travis.yml
+
+# node
+yarn.lock
+yarn-error.log
+
+# project
+src
+dist
+static
+*.config.js
+gulpfile.js
+
