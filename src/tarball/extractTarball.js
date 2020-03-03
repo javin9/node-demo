@@ -1,14 +1,14 @@
 const request = require('request')
 const progress = require('request-progress')
-const zlib = require('zlib')
 const tar = require('tar')
 const path = require('path')
 const fs = require('fs-extra')
-const unzip = require('unzip')
 
 module.exports = (url) => {
   return new Promise((resolve, reject) => {
-    console.log('开始extract');
+    const allFiles = [];
+    const allWriteStream = [];
+    const directoryCollector = [];
 
     progress(request({ url }))
       .on('progress', (state) => {
@@ -18,42 +18,34 @@ module.exports = (url) => {
         console.log(`err=${err}`);
         reject(error)
       })
-      .on('error', (error) => {
-        reject(error);
-      })
+      // .pipe(zlib.unzip())
+      .pipe(tar.x())
       .on('end', () => {
-        console.log('end')
+        console.log('end');
+        Promise.all(allWriteStream)
+          .then(() => resolve(allFiles))
+          .catch((error) => {
+            reject(error);
+          });
       })
-      .pipe(fs.createWriteStream(path.resolve(__dirname, 'a.gz')))
-      .pipe(unzip.Parse())
       .on('entry', (entry) => {
-        console.log(entry);
+        const realPath = entry.path.replace(/^package\//, '');
+        let filename = path.basename(realPath);
+        const destPath = path.join(__dirname, 'package', path.dirname(realPath), filename);
+
+        const needCreateDir = path.dirname(destPath);
+        if (!directoryCollector.includes(needCreateDir)) {
+          directoryCollector.push(needCreateDir);
+          fs.ensureDirSync(path.dirname(destPath))
+        }
+
+        allFiles.push(destPath);
+        const writeStream = new Promise((streamResolve) => {
+          entry
+            .pipe(fs.createWriteStream(destPath))
+            .on('finish', () => streamResolve());
+        });
+        allWriteStream.push(writeStream);
       })
-    // .pipe(zlib.Unzip())
-    // .pipe(tar.Parse())
-    // .on('entry', (entry) => {
-    //   console.log('entrye');
-
-    //   const realPath = entry.path.replace(/^package\//, '');
-
-    //   let filename = path.basename(realPath);
-
-    //   const destPath = path.join(__dirname, path.dirname(realPath), filename);
-
-    //   const needCreateDir = path.dirname(destPath);
-    //   if (!directoryCollector.includes(needCreateDir)) {
-    //     directoryCollector.push(needCreateDir);
-    //     mkdirp.sync(path.dirname(destPath));
-    //   }
-
-    //   allFiles.push(destPath);
-    //   const writeStream = new Promise((streamResolve) => {
-    //     entry
-    //       .pipe(fs.createWriteStream(destPath))
-    //       .on('finish', () => streamResolve());
-    //   });
-    //   allWriteStream.push(writeStream);
-    // })
-
   })
 }
