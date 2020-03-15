@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
@@ -49,6 +48,7 @@
     "webshot": "^0.18.0",
     "zlib": "^1.0.5"
   },
+  "author": "liujianwei1213",
   "email": "liujianwei1213@163.com",
   "repository": {
     "type": "git",
