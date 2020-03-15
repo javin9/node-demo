@@ -49,5 +49,9 @@
     "webshot": "^0.18.0",
     "zlib": "^1.0.5"
   },
-  "email": "liujianwei1213@163.com"
+  "email": "liujianwei1213@163.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rupid/node-demo.git"
+  }
 }
