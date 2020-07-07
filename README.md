@@ -19,4 +19,4 @@ node相关技术尝试
 - JSON WEB TOKEN（jwt）
 - 第三方登录
 - 集群Cluster
-
+- 加密算法

@@ -1,8 +1,8 @@
 Arguments: 
-  /Users/liujianwei/.nvm/versions/node/v10.17.0/bin/node /usr/local/bin/yarn add http-server
+  /Users/liujianwei/.nvm/versions/node/v10.17.0/bin/node /usr/local/bin/yarn add crypto
 
 PATH: 
-  /Users/liujianwei/.nvm/versions/node/v10.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/liujianwei/.nvm/versions/node/v10.17.0/bin
+  /Users/liujianwei/.nvm/versions/node/v10.17.0/bin:/Users/liujianwei/linuxscript:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/liujianwei/.nvm/versions/node/v10.17.0/bin:/Users/liujianwei/linuxscript
 
 Yarn version: 
   1.21.0
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: http://ued.zuoyebang.cc/npm/http-server: ETIMEDOUT
+  Error: http://ued.zuoyebang.cc/npm/crypto: ETIMEDOUT
       at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:141282:19)
       at ontimeout (timers.js:436:11)
       at tryOnTimeout (timers.js:300:5)
@@ -24,14 +24,13 @@ Trace:
 npm manifest: 
   {
     "name": "koa-demo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "",
     "license": "ISC",
     "dependencies": {
       "axios": "^0.19.2",
@@ -72,6 +71,12 @@ npm manifest:
       "util": "^0.12.1",
       "webshot": "^0.18.0",
       "zlib": "^1.0.5"
+    },
+    "author": "rupid",
+    "email": "liujianwei1213@163.com",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:rupid/node-demo.git"
     }
   }
 
