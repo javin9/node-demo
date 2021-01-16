@@ -20,3 +20,7 @@ node相关技术尝试
 - 第三方登录
 - 集群Cluster
 - 加密算法
+
+### npm包
+下面收集了一些比较好的npm包，方便以后在其他项目中用到
+- [pacote 下载解压npm源上的tarballs到指定目录](https://www.npmjs.com/package/pacote)
