@@ -12,6 +12,7 @@
     "axios": "^0.19.2",
     "co-redis": "^2.1.1",
     "cross-spawn": "^7.0.1",
+    "dot-env": "0.0.1",
     "download-git-repo": "^3.0.2",
     "element-ui": "^2.13.0",
     "fs-extra": "^8.1.0",
