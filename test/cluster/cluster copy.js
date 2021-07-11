@@ -14,7 +14,8 @@ if (cluster.isMaster) {
 
   console.log(`Forking for ${cpus} CPUs`)
   for (let i = 0; i < cpus; i++) {
-    cluster.fork()// 使用 cluster.fork 创建子进程
+    // 使用 cluster.fork 创建子进程
+    cluster.fork()
   }
 
   const updateWorkers = () => {
