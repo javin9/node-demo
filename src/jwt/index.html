@@ -1,3 +1,11 @@
+<!--
+ * @Desc: 
+ * @FilePath: /node-demo/src/jwt/index.html
+ * @Author: liujianwei1
+ * @Date: 2021-03-16 15:58:17
+ * @LastEditors: liujianwei1
+ * @Reference Desc: 
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,14 +14,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <!-- 引入样式 -->
   <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
 </head>
 
 <body>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js">
+  <script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/3.0.5/vue.global.prod.js">
   </script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
+  <script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/axios/0.21.1/axios.min.js"></script>
+
+  <!-- 引入组件库 -->
   <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  <!-- <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/element-ui/2.15.0/index.min.js"></script> -->
 
   <div id="app">
     <template>
@@ -34,11 +47,13 @@
     </template>
   </div>
   <script>
+    // axios.defaults.withCredentials = true
     axios.interceptors.request.use(
       config => {
         const token = window.localStorage.getItem("token");
         if (token) {
-          // 判断是否存在token，如果存在的话，则每个http header都加上token // Bearer是JWT的认证头部信息 
+          // 判断是否存在token，如果存在的话，则每个http header都加上token 
+          // Bearer是JWT的认证头部信息 
           config.headers.common["Authorization"] = "Bearer " + token;
         }
         return config;
@@ -59,7 +74,7 @@
       },
       methods: {
         onLogin() {
-          axios.post('/api/login', this.form).then((res) => {
+          axios.post('http://127.0.0.1:3000/api/login', this.form).then((res) => {
             console.log(res.data);
             localStorage.setItem("token", res.data.data.token);
           })
@@ -68,7 +83,7 @@
 
         },
         getUser() {
-          axios.get('/api/getDetail').then((res) => {
+          axios.get('http://127.0.0.1:3000/api/getDetail').then((res) => {
             console.log(res.data);
           })
         }
