@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dotenv:dev": "cross-env CURRENT_ENV=dev node ./src/dotenv/index.js",
     "dotenv:test": "cross-env CURRENT_ENV=test node ./src/dotenv/index.js",
-    "dotenv:prod": "cross-env CURRENT_ENV=prod node ./src/dotenv/index.js"
+    "dotenv:prod": "cross-env CURRENT_ENV=prod node ./src/dotenv/index.js",
+    "babel:demo": "node ./src/babel/index.js"
   },
   "keywords": [],
   "license": "ISC",
