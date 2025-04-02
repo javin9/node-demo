@@ -1,0 +1,2999 @@
+{
+  "errno": 0,
+  "msg": "ok",
+  "data": {
+    "total": 1,
+    "list": [
+      {
+        "_id": "672cbd768e044f6d3651cf98",
+        "status": 4,
+        "name": "云游博物馆",
+        "ownerId": "w_duhaikui",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-11-07T13:15:34.280Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-11-07T13:42:07.352Z",
+        "revisionId": "672cbd768e044f6d3651cf99",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "云游博物馆",
+          "title": "云游博物馆",
+          "pages": [
+            {
+              "id": "30ffwv3g5s",
+              "clazz": "page",
+              "pageTitle": "",
+              "widgets": [
+                {
+                  "id": "2gi36nvstt",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 1912.875,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/Tynl6u3AnhT7B70YfUdT5-1730985588310.png",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 1912.875,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "30ffwv3g5s-2gi36nvstt",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "30ffwv3g5s"
+                },
+                {
+                  "id": "np5m4l5atr",
+                  "name": "图片-2",
+                  "type": "Image",
+                  "width": 364,
+                  "height": 396,
+                  "top": 200,
+                  "left": 5,
+                  "data": {
+                    "url": "https://m.xiwang.com/resource/d_2uRId-_fQPTJqo04QfP-1715866528481.png",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 1912.875,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "30ffwv3g5s-np5m4l5atr",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "30ffwv3g5s"
+                },
+                {
+                  "id": "vbqxidsowq",
+                  "name": "有Tab的视频组件-1",
+                  "type": "TabVideo",
+                  "height": 393,
+                  "top": 206,
+                  "data": {
+                    "useRuleData": false,
+                    "videoData": [
+                      {
+                        "tabName": "南京博物馆",
+                        "videoList": [
+                          {
+                            "videoAdress": "https://m.wen-su.com/resource/xnymfX7BH5GEIPZhromkI-1730986123161.mp4",
+                            "poster": "https://m.wen-su.com/resource/YAIzXDJBrZ1VD1Jg-7Lqv-1730985588312.png",
+                            "title": "南京上",
+                            "keyId": "fcex5uvw"
+                          },
+                          {
+                            "videoAdress": "https://m.wen-su.com/resource/R79-yqzA9_0Ny8J0smDes-1730986191890.mp4",
+                            "poster": "https://m.wen-su.com/resource/YAIzXDJBrZ1VD1Jg-7Lqv-1730985588312.png",
+                            "title": "南京下",
+                            "keyId": "02umhisf"
+                          }
+                        ],
+                        "keyId": "f1ig5yf1"
+                      },
+                      {
+                        "tabName": "内蒙古博物院",
+                        "videoList": [
+                          {
+                            "videoAdress": "https://m.wen-su.com/resource/X6QIFOXlZ8Jtmf7SK_yy7-1730986256329.mp4",
+                            "poster": "https://m.wen-su.com/resource/OdbKB1X2BFovAVZCSYYLg-1730985588313.png",
+                            "title": "内蒙古上",
+                            "keyId": "0f1je6f2"
+                          },
+                          {
+                            "keyId": "190hqvej",
+                            "title": "内蒙古下",
+                            "poster": "https://m.wen-su.com/resource/OdbKB1X2BFovAVZCSYYLg-1730985588313.png",
+                            "videoAdress": "https://m.wen-su.com/resource/26Op27wRYhX4GAix-Z8Oq-1730986331240.mp4"
+                          }
+                        ],
+                        "keyId": "gyjymejq"
+                      },
+                      {
+                        "keyId": "od97rle2",
+                        "tabName": "三星堆博物馆",
+                        "videoList": [
+                          {
+                            "keyId": "dwa98ijt",
+                            "title": "三星堆·上",
+                            "poster": "https://m.wen-su.com/resource/i3KtEdCFy_IcDsHJtIr2B-1730985588312.png",
+                            "videoAdress": "https://m.wen-su.com/resource/WtttwyZRosi-DMoQP0GHI-1730986386089.mp4"
+                          },
+                          {
+                            "keyId": "mcja3mm0",
+                            "title": "三星堆·下",
+                            "poster": "https://m.wen-su.com/resource/i3KtEdCFy_IcDsHJtIr2B-1730985588312.png",
+                            "videoAdress": "https://m.wen-su.com/resource/eNSSX9_WFHCCyZssIBlEj-1730986437808.mp4"
+                          }
+                        ]
+                      },
+                      {
+                        "keyId": "o7sike8d",
+                        "tabName": "《孔子博物馆》",
+                        "videoList": [
+                          {
+                            "keyId": "98igp7kb",
+                            "title": "孔子博物馆·上",
+                            "poster": "https://m.wen-su.com/resource/b64l_WQ0zkqzoE7TiqfgG-1730985588312.png",
+                            "videoAdress": "https://m.wen-su.com/resource/ikAnpLxNV1_Da1_v3ZC_w-1730986463874.mp4"
+                          },
+                          {
+                            "keyId": "jlahl9ic",
+                            "title": "孔子博物馆·下",
+                            "poster": "https://m.wen-su.com/resource/b64l_WQ0zkqzoE7TiqfgG-1730985588312.png",
+                            "videoAdress": "https://m.wen-su.com/resource/-8gO_db_-Aipi4HUNyYXC-1730986494843.mp4"
+                          }
+                        ]
+                      }
+                    ],
+                    "videoListBgColor": "#FFDBAA",
+                    "videoListColor": "#92684D",
+                    "tabActiveBg": "#ff5c0d",
+                    "tabActiveColor": "#ffffff",
+                    "tabBg": "#ffdbaa",
+                    "tabColor": "#733a00",
+                    "endTime": 80,
+                    "ruleData": [],
+                    "bgImage": ""
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 1912.875,
+                  "condition": "",
+                  "version": "0.0.5",
+                  "originName": "有Tab的视频组件",
+                  "minHeight": 30,
+                  "path": "30ffwv3g5s-vbqxidsowq",
+                  "isFullPage": false,
+                  "oldHeight": 393,
+                  "category": "widget",
+                  "useRem": false,
+                  "useData": true,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "30ffwv3g5s"
+                },
+                {
+                  "id": "tm6caywh4g",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 1852.875,
+                  "bgImage": "https://m.wen-su.com/resource/gEvBTv5_lQFtOpveztHCg-1730986779454.gif",
+                  "data": {
+                    "text": "",
+                    "color": "rgba(255, 255, 255, 0)",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "2jxgfyyum6",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://source.wen-su.com/hotspot/jump/3001978649",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 1912.875,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "methods": {},
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "30ffwv3g5s-tm6caywh4g",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "30ffwv3g5s"
+                }
+              ],
+              "isSelected": true,
+              "height": 1912.875,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "4hdauqq5b4",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  },
+                  "version": ""
+                }
+              ],
+              "path": "30ffwv3g5s",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-11-07T13:15:35.317Z",
+          "lastModifyTime": "2024-11-07T13:15:35.317Z",
+          "lastPublished": "2024-11-07T13:15:35.317Z",
+          "runingStartTime": "2024-11-07T13:15:08.140Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_duhaikui",
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1730986927929.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": null,
+        "abConfig": null,
+        "rulesConfig": {},
+        "logId": "672cc3afe45ecc4f36aeafdd",
+        "lastPublished": "2024-11-07T13:42:07.883Z",
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "672c890fa9853f67365dcd13",
+        "status": 4,
+        "name": "清北学长学姐说",
+        "ownerId": "w_duhaikui",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-11-07T09:31:59.365Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-11-07T12:56:54.400Z",
+        "revisionId": "672c890fa9853f67365dcd14",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "清北学长学姐说",
+          "title": "清北学长学姐说",
+          "pages": [
+            {
+              "id": "rv4xu8xwow",
+              "clazz": "page",
+              "pageTitle": "",
+              "widgets": [
+                {
+                  "id": "tiyulbku7w",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 799.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/ckwdyy9oFMieq-mgndHZO-1730983038279.png",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 799.125,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "rv4xu8xwow-tiyulbku7w",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "rv4xu8xwow"
+                },
+                {
+                  "id": "ktnwjiyvpi",
+                  "name": "有Tab的视频组件-1",
+                  "type": "TabVideo",
+                  "height": 393,
+                  "top": 208,
+                  "left": -3,
+                  "data": {
+                    "useRuleData": false,
+                    "videoData": [
+                      {
+                        "tabName": "清华学姐学长说",
+                        "videoList": [
+                          {
+                            "videoAdress": "https://m.wen-su.com/resource/3bwZg8b-fUHgDIckr9Opo-1730973131204.mp4",
+                            "poster": "https://m.wen-su.com/resource/NQqsWVuNTub9lohxHbNw_-1730971650081.png",
+                            "title": "环境决定成败",
+                            "keyId": "mp9al51h"
+                          },
+                          {
+                            "videoAdress": "https://m.wen-su.com/resource/OD6aTgtixOFO2gY7IyL8y-1730973692164.mp4",
+                            "poster": "https://m.wen-su.com/resource/-o7FxfAP87rG4hIOXKZxV-1730971783197.png",
+                            "title": "全家都是学霸",
+                            "keyId": "c8peh1gt"
+                          },
+                          {
+                            "videoAdress": "https://m.wen-su.com/resource/smvnXE8u2w4I_ilLQcJ7F-1730974245332.mp4",
+                            "poster": "https://m.wen-su.com/resource/JdJQEn2SIZY4GrxvX6xZ1-1730971650084.png",
+                            "title": "清华学长文理双科第一学习法",
+                            "keyId": "kx6pmn4e"
+                          }
+                        ],
+                        "keyId": "uwgyanen"
+                      },
+                      {
+                        "tabName": "北大学姐学长说",
+                        "videoList": [
+                          {
+                            "videoAdress": "https://m.wen-su.com/resource/FCwVtGxgkQRrW5mc5N-N9-1730974351592.mp4",
+                            "poster": "https://m.wen-su.com/resource/ajcdsbRdkUr4mzhPaec9E-1730972275814.png",
+                            "title": "北大学姐理科秘籍",
+                            "keyId": "2j57d4fd"
+                          },
+                          {
+                            "keyId": "9sf966s8",
+                            "poster": "https://m.wen-su.com/resource/be0vbNYlI-UEk6Rx-nt26-1730972354114.png",
+                            "videoAdress": "https://m.wen-su.com/resource/inDxrACszTD8FAGAw9rjf-1730976764398.mp4",
+                            "title": "毕业被老师追着要笔记"
+                          },
+                          {
+                            "keyId": "9nmbqb5f",
+                            "poster": "https://m.wen-su.com/resource/WHgT2sGPa6jHqaetHXljt-1730971650083.png",
+                            "videoAdress": "https://m.wen-su.com/resource/xWcsYCf5AGj0loEqMrxKD-1730981819650.mp4",
+                            "title": "北大学长教你主科快速提分"
+                          }
+                        ],
+                        "keyId": "rcxfpda7"
+                      }
+                    ],
+                    "videoListBgColor": "#FFDBAA",
+                    "videoListColor": "#92684D",
+                    "tabActiveBg": "#ff5c0d",
+                    "tabActiveColor": "#ffffff",
+                    "tabBg": "#ffdbaa",
+                    "tabColor": "#733a00",
+                    "endTime": 80,
+                    "ruleData": [],
+                    "bgImage": ""
+                  },
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 799.125,
+                  "condition": "",
+                  "version": "0.0.5",
+                  "originName": "有Tab的视频组件",
+                  "minHeight": 30,
+                  "path": "rv4xu8xwow-ktnwjiyvpi",
+                  "isFullPage": false,
+                  "oldHeight": 393,
+                  "category": "widget",
+                  "useRem": false,
+                  "useData": true,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "rv4xu8xwow"
+                },
+                {
+                  "id": "0ogppb4shx",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 739.125,
+                  "bgImage": "https://m.wen-su.com/resource/drPtQl8wyGs0-0W_WeF_0-1730983762870.gif",
+                  "data": {
+                    "text": "",
+                    "color": "rgba(255, 255, 255, 0)",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "yydw35gt2h",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://source.wen-su.com/hotspot/jump/3001978589",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 799.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "methods": {},
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "rv4xu8xwow-0ogppb4shx",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "rv4xu8xwow"
+                },
+                {
+                  "id": "kds4pkm1in",
+                  "name": "热区-1",
+                  "type": "HotArea",
+                  "width": 376,
+                  "height": 60,
+                  "top": 609.125,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "kibhrlksul",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://source.wen-su.com/hotspot/jump/3001978587",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 799.125,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "methods": {},
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "rv4xu8xwow-kds4pkm1in",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "rv4xu8xwow"
+                }
+              ],
+              "isSelected": true,
+              "height": 799.125,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "rl2l8wkmps",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  }
+                }
+              ],
+              "path": "rv4xu8xwow",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-11-07T09:32:00.506Z",
+          "lastModifyTime": "2024-11-07T09:32:00.506Z",
+          "lastPublished": "2024-11-07T09:32:00.506Z",
+          "runingStartTime": "2024-11-07T09:31:48.070Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_duhaikui",
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1730984215170.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": null,
+        "abConfig": null,
+        "rulesConfig": {},
+        "logId": "672cb916e45ecc4f36aeafd7",
+        "lastPublished": "2024-11-07T12:56:55.117Z",
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "672c8560943ca05536335a47",
+        "status": 0,
+        "name": "清北学长学姐",
+        "ownerId": "w_duhaikui",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-11-07T09:16:16.190Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-11-07T09:16:16.190Z",
+        "revisionId": "672c8560943ca05536335a48",
+        "revisionData": {
+          "title": "清北学长学姐",
+          "layout": "normal",
+          "clazz": "project",
+          "width": 375,
+          "height": 679,
+          "userSelect": "auto",
+          "useData": false,
+          "dataUrl": "",
+          "descUrl": "",
+          "descriptions": [],
+          "pageState": {},
+          "usePreloader": false,
+          "preLoadBackgroundImg": "",
+          "pages": [
+            {
+              "widgets": [],
+              "triggers": [
+                {
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "clazz": "trigger",
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": ""
+                  },
+                  "platform": ["iOS", "android", "other"]
+                }
+              ]
+            }
+          ],
+          "editorType": "project",
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "runingStartTime": "2024-11-07T09:15:39.503Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z"
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {},
+        "version": "3.0",
+        "poster": "//m.xiwang.com/resource/poster-1655691287397.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": null,
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "670a4908c5ee6d7f360af8e7",
+        "status": 4,
+        "name": "把女儿”宠“进北大",
+        "ownerId": "w_duhaikui",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-10-12T10:01:44.285Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-10-12T10:03:45.174Z",
+        "revisionId": "663edc97419e04553851a759",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "把女儿”宠“进北大",
+          "title": "清北家长说",
+          "pages": [
+            {
+              "id": "8arlkm5god",
+              "clazz": "page",
+              "pageTitle": "",
+              "widgets": [
+                {
+                  "id": "q0112lmd4q",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 8320.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/AxSpoF4vsgl9NirH04Ulx-1715395806715.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 8320.125,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "8arlkm5god-q0112lmd4q",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "8arlkm5god"
+                },
+                {
+                  "id": "fec4sqmrl6",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 8260.125,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "rgba(255, 255, 255, 0)",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "rj6f1sug7u",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://source.wen-su.com/hotspot/jump/3001904252",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 8320.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "8arlkm5god-fec4sqmrl6",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "8arlkm5god"
+                }
+              ],
+              "isSelected": true,
+              "height": 8320.125,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "ikum5ngk1a",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  },
+                  "version": ""
+                }
+              ],
+              "path": "8arlkm5god",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-05-11T02:48:56.809Z",
+          "lastModifyTime": "2024-05-11T02:48:56.809Z",
+          "lastPublished": "2024-05-11T02:48:56.809Z",
+          "runingStartTime": "2024-05-11T02:48:42.765Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_duhaikui",
+          "userInfo": {
+            "userId": "w_duhaikui",
+            "workcode": "W008576",
+            "userLevel": null,
+            "isWxUser": 0,
+            "userDeptId": "625d0bf51102be269d68d574",
+            "userDept": "xw",
+            "role": "普通用户"
+          },
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1728727425642.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": ["62a1d72709a1cdd508211033"],
+        "rulesConfig": {},
+        "logId": "670a4981e45ecc4f36aeaedd",
+        "partner": ["w_houyinze"],
+        "editorType": null,
+        "abConfig": null,
+        "lastPublished": "2024-10-12T10:03:45.584Z",
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "663edc97419e04553851a758",
+        "status": 4,
+        "name": "爱学会学的北大娃如何养成",
+        "ownerId": "w_duchun",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-05-11T02:48:55.539Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-10-12T09:45:28.761Z",
+        "revisionId": "663edc97419e04553851a759",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "爱学会学的北大娃如何养成",
+          "title": "清北家长说",
+          "pages": [
+            {
+              "id": "8arlkm5god",
+              "clazz": "page",
+              "pageTitle": "",
+              "widgets": [
+                {
+                  "id": "8pig3oblt7",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 6619.875,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/GjlBASau4pQQqlPcvb3Uu-1715395806714.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 6619.875,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "8arlkm5god-8pig3oblt7",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "8arlkm5god"
+                },
+                {
+                  "id": "p51gyfd1n8",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 6559.875,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "fgfqekr3lh",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://source.wen-su.com/hotspot/jump/3001904249",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 6619.875,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "8arlkm5god-p51gyfd1n8",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "8arlkm5god"
+                }
+              ],
+              "isSelected": true,
+              "height": 6619.875,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "ikum5ngk1a",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  },
+                  "version": ""
+                }
+              ],
+              "path": "8arlkm5god",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-05-11T02:48:56.809Z",
+          "lastModifyTime": "2024-05-11T02:48:56.809Z",
+          "lastPublished": "2024-05-11T02:48:56.809Z",
+          "runingStartTime": "2024-05-11T02:48:42.765Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_duchun",
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1728726329125.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": ["62a1d72709a1cdd508211033"],
+        "abConfig": null,
+        "rulesConfig": {},
+        "logId": "670a45388e044f6d3651ceb0",
+        "lastPublished": "2024-10-12T09:45:29.066Z",
+        "partner": ["w_duhaikui", "w_baoyun", "w_houyinze"],
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "663f0e22dc876d896200c0a2",
+        "status": 4,
+        "name": "不卷也能进名校",
+        "ownerId": "w_duchun",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-05-11T06:20:18.743Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-10-12T09:45:14.032Z",
+        "revisionId": "663f0e22dc876d896200c0a3",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "不卷也能进名校",
+          "title": "清北家长说",
+          "pages": [
+            {
+              "id": "hjxyhkqlen",
+              "clazz": "page",
+              "pageTitle": "",
+              "widgets": [
+                {
+                  "id": "h810p7tqnv",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 13342.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/LFz-YUCcXV00nqYEs5q5D-1715395806715.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 13342.125,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "hjxyhkqlen-h810p7tqnv",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "hjxyhkqlen"
+                },
+                {
+                  "id": "drgasulxl1",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 13282.125,
+                  "bgImage": "https://m.wen-su.com/resource/ebRQaFAf9Oij75qnes74n-1715395887064.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "v1pxn2fmqk",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://source.wen-su.com/hotspot/jump/3001904249",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 13342.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "hjxyhkqlen-drgasulxl1",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "hjxyhkqlen"
+                }
+              ],
+              "isSelected": true,
+              "height": 13342.125,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "qrpugigf39",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  }
+                }
+              ],
+              "path": "hjxyhkqlen",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-05-11T06:20:20.147Z",
+          "lastModifyTime": "2024-05-11T06:20:20.147Z",
+          "lastPublished": "2024-05-11T06:20:20.147Z",
+          "runingStartTime": "2024-05-11T06:20:02.887Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_duchun",
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1728726314454.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": null,
+        "abConfig": null,
+        "rulesConfig": {},
+        "logId": "670a452ae45ecc4f36aeaedb",
+        "lastPublished": "2024-10-12T09:45:14.396Z",
+        "partner": ["w_duhaikui", "w_baoyun", "w_houyinze"],
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "663ee0d3419e04553851a75e",
+        "status": 4,
+        "name": "把女儿宠进北大",
+        "ownerId": "w_duchun",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-05-11T03:06:59.992Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-10-12T09:44:50.687Z",
+        "revisionId": "663edc97419e04553851a759",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "把女儿宠进北大",
+          "title": "清北家长说",
+          "pages": [
+            {
+              "id": "8arlkm5god",
+              "clazz": "page",
+              "pageTitle": "",
+              "widgets": [
+                {
+                  "id": "q0112lmd4q",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 8320.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/AxSpoF4vsgl9NirH04Ulx-1715395806715.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 8320.125,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "8arlkm5god-q0112lmd4q",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "8arlkm5god"
+                },
+                {
+                  "id": "fec4sqmrl6",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 8260.125,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "rgba(255, 255, 255, 0)",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "rj6f1sug7u",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://source.wen-su.com/hotspot/jump/3001904249",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 8320.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "8arlkm5god-fec4sqmrl6",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "8arlkm5god"
+                }
+              ],
+              "isSelected": true,
+              "height": 8320.125,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "ikum5ngk1a",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  }
+                }
+              ],
+              "path": "8arlkm5god",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-05-11T02:48:56.809Z",
+          "lastModifyTime": "2024-05-11T02:48:56.809Z",
+          "lastPublished": "2024-05-11T02:48:56.809Z",
+          "runingStartTime": "2024-05-11T02:48:42.765Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_duchun",
+          "userInfo": {
+            "userId": "w_duchun",
+            "workcode": "W000859",
+            "userLevel": null,
+            "isWxUser": 0,
+            "userDeptId": "625d0bf51102be269d68d574",
+            "userDept": "xw",
+            "role": "普通用户"
+          },
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1728726291362.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": ["62a1d72709a1cdd508211033"],
+        "rulesConfig": {},
+        "logId": "670a4512943ca05536335938",
+        "partner": ["w_duhaikui", "w_baoyun", "w_houyinze"],
+        "editorType": null,
+        "abConfig": null,
+        "lastPublished": "2024-10-12T09:44:51.304Z",
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "670a4215943ca05536335935",
+        "status": 0,
+        "name": "值得效仿的妈妈",
+        "ownerId": "w_duhaikui",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-10-12T09:32:05.989Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-10-12T09:32:05.989Z",
+        "revisionId": "670a4215943ca05536335936",
+        "revisionData": {
+          "title": "值得效仿的妈妈",
+          "layout": "normal",
+          "clazz": "project",
+          "width": 375,
+          "height": 679,
+          "userSelect": "auto",
+          "useData": false,
+          "dataUrl": "",
+          "descUrl": "",
+          "descriptions": [],
+          "pageState": {},
+          "usePreloader": false,
+          "preLoadBackgroundImg": "",
+          "pages": [
+            {
+              "widgets": [],
+              "triggers": [
+                {
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "clazz": "trigger",
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": ""
+                  },
+                  "platform": ["iOS", "android", "other"]
+                }
+              ]
+            }
+          ],
+          "editorType": "project",
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "runingStartTime": "2024-10-12T09:31:44.815Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z"
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {},
+        "version": "3.0",
+        "poster": "//m.xiwang.com/resource/poster-1655691287397.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": null,
+        "partner": ["w_houyinze"],
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "663f628ea58316766206c88f",
+        "status": 4,
+        "name": "清北家长",
+        "ownerId": "w_baoyun",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-05-11T12:20:30.839Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-05-31T03:19:38.600Z",
+        "revisionId": "663f628ea58316766206c890",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "清北家长",
+          "title": "清北家长",
+          "pages": [
+            {
+              "id": "58pgs7r4f7",
+              "clazz": "page",
+              "pageTitle": "",
+              "bgColor": "rgba(255,236,201,1)",
+              "widgets": [
+                {
+                  "id": "fjvy7dhe9b",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 319.875,
+                  "top": -10,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/QWkST1GA36DCT0y4Nnwfn-1715429473262.png",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-fjvy7dhe9b",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                },
+                {
+                  "id": "s7785t5csn",
+                  "name": "图片-2",
+                  "type": "Image",
+                  "height": 1146,
+                  "top": 268.875,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/rdDhT1wz5eMQv3Cd4ftak-1717123763734.png",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "condition": "",
+                  "methods": {},
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-s7785t5csn",
+                  "isFullPage": false,
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                },
+                {
+                  "id": "hxiglrxbrg",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 1354.875,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "qfy8hv3w4h",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://artemis.xue.wen-su.com/wx50/1700568974?source=1700568974&site_id=1009111&adsite_id=17566244",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-hxiglrxbrg",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                },
+                {
+                  "id": "blw2f7eft8",
+                  "name": "热区-1",
+                  "type": "HotArea",
+                  "width": 350,
+                  "height": 134,
+                  "top": 442.875,
+                  "left": 15,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "n5h294pgv2",
+                      "clazz": "trigger",
+                      "type": "ScrollToPage",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "isParams": false,
+                        "keepHistory": true,
+                        "pageNum": "6amo37w5j8"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-blw2f7eft8",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                },
+                {
+                  "id": "pb8vvm8gsp",
+                  "name": "热区-2",
+                  "type": "HotArea",
+                  "width": 337,
+                  "height": 128,
+                  "top": 593.875,
+                  "left": 20,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "hc7k4cehnv",
+                      "clazz": "trigger",
+                      "type": "ScrollToPage",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "isParams": false,
+                        "keepHistory": true,
+                        "pageNum": "5ljkc28d29"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-pb8vvm8gsp",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                },
+                {
+                  "id": "lvcj1d00xv",
+                  "name": "热区-3",
+                  "type": "HotArea",
+                  "width": 340,
+                  "height": 123,
+                  "top": 746.875,
+                  "left": 20,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "nmsfj1mpvi",
+                      "clazz": "trigger",
+                      "type": "ScrollToPage",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "isParams": false,
+                        "keepHistory": true,
+                        "pageNum": "l2ywy2etlm"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-lvcj1d00xv",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                },
+                {
+                  "id": "s5nxq56shq",
+                  "name": "热区-4",
+                  "type": "HotArea",
+                  "width": 336,
+                  "height": 128,
+                  "top": 890.875,
+                  "left": 20,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "wuu27ad6e9",
+                      "clazz": "trigger",
+                      "type": "ScrollToPage",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "isParams": false,
+                        "keepHistory": true,
+                        "pageNum": "ktx2m7rku5"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-s5nxq56shq",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                },
+                {
+                  "id": "mgpo9x4j5s",
+                  "name": "热区-5",
+                  "type": "HotArea",
+                  "width": 344,
+                  "height": 135,
+                  "top": 283.875,
+                  "left": 15,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "ybhkk7xn2g",
+                      "clazz": "trigger",
+                      "type": "ScrollToPage",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "isParams": false,
+                        "keepHistory": true,
+                        "pageNum": "qx55i4ebgd"
+                      }
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1414.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "methods": {},
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "58pgs7r4f7-mgpo9x4j5s",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "58pgs7r4f7"
+                }
+              ],
+              "isSelected": true,
+              "height": 1414.875,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "6pjqwvudaf",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  }
+                }
+              ],
+              "path": "58pgs7r4f7",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            },
+            {
+              "id": "6amo37w5j8",
+              "clazz": "page",
+              "pageTitle": "",
+              "name": "页面-2",
+              "widgets": [
+                {
+                  "id": "bkhyw43gjm",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 6619.875,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/GjlBASau4pQQqlPcvb3Uu-1715395806714.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 6619.875,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "6amo37w5j8-bkhyw43gjm",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "6amo37w5j8"
+                },
+                {
+                  "id": "vsuihojxau",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 6559.875,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "6723m4wa5c",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://artemis.xue.wen-su.com/wx50/1700568974?source=1700568974&site_id=1009111&adsite_id=17566244",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 6619.875,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "6amo37w5j8-vsuihojxau",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "6amo37w5j8"
+                }
+              ],
+              "isSelected": false,
+              "height": 6619.875,
+              "isFullPage": false,
+              "path": "6amo37w5j8",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            },
+            {
+              "id": "5ljkc28d29",
+              "clazz": "page",
+              "pageTitle": "",
+              "name": "页面-3",
+              "widgets": [
+                {
+                  "id": "ocuqvhopwc",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 8320.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/AxSpoF4vsgl9NirH04Ulx-1715395806715.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 8320.125,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "5ljkc28d29-ocuqvhopwc",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "5ljkc28d29"
+                },
+                {
+                  "id": "vfypwvf4fv",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 8260.125,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "4gb54vf4p6",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://artemis.xue.wen-su.com/wx50/1700568974?source=1700568974&site_id=1009111&adsite_id=17566244",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 8320.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "5ljkc28d29-vfypwvf4fv",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "5ljkc28d29"
+                }
+              ],
+              "isSelected": false,
+              "height": 8320.125,
+              "isFullPage": false,
+              "path": "5ljkc28d29",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            },
+            {
+              "id": "l2ywy2etlm",
+              "clazz": "page",
+              "pageTitle": "",
+              "name": "页面-4",
+              "widgets": [
+                {
+                  "id": "r4f062asmb",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 13342.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/LFz-YUCcXV00nqYEs5q5D-1715395806715.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 13342.125,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "l2ywy2etlm-r4f062asmb",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "l2ywy2etlm"
+                },
+                {
+                  "id": "sjyi8rxa6u",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 13282.125,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "cnbo2gigy8",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://artemis.xue.wen-su.com/wx50/1700568974?source=1700568974&site_id=1009111&adsite_id=17566244",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 13342.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "l2ywy2etlm-sjyi8rxa6u",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "l2ywy2etlm"
+                }
+              ],
+              "isSelected": false,
+              "height": 13342.125,
+              "isFullPage": false,
+              "path": "l2ywy2etlm",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            },
+            {
+              "id": "ktx2m7rku5",
+              "clazz": "page",
+              "pageTitle": "",
+              "name": "页面-5",
+              "widgets": [
+                {
+                  "id": "05442vhdqx",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 12718.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/HDPnSZ8U9nF0bxiClzqew-1716193544151.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 12718.125,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "ktx2m7rku5-05442vhdqx",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "ktx2m7rku5"
+                },
+                {
+                  "id": "amdvdg4foa",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 12658.125,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "3xwstmya96",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://artemis.xue.wen-su.com/wx50/1700568974?source=1700568974&site_id=1009111&adsite_id=17566244",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 12718.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "ktx2m7rku5-amdvdg4foa",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "ktx2m7rku5"
+                }
+              ],
+              "isSelected": false,
+              "height": 12718.125,
+              "isFullPage": false,
+              "path": "ktx2m7rku5",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            },
+            {
+              "id": "qx55i4ebgd",
+              "clazz": "page",
+              "pageTitle": "",
+              "name": "页面-6",
+              "widgets": [
+                {
+                  "id": "nwq2dgiqnb",
+                  "name": "图片-1",
+                  "type": "Image",
+                  "height": 12283.125,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/_YJeu0pRlxzyystUrNFBY-1717122904174.jpg",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 12283.125,
+                  "condition": "",
+                  "methods": {},
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "qx55i4ebgd-nwq2dgiqnb",
+                  "isFullPage": false,
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "qx55i4ebgd"
+                },
+                {
+                  "id": "qn1d0w9v3d",
+                  "name": "吸底按钮-1",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 12223.125,
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "#000",
+                    "fontSize": 13,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "tvhe5cg1yy",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://artemis.xue.wen-su.com/wx50/1700568974?source=1700568974&site_id=1009111&adsite_id=17566244",
+                        "parameter": false,
+                        "redirectType": "default"
+                      }
+                    }
+                  ],
+                  "isSelected": true,
+                  "pageWidth": 375,
+                  "pageHeight": 12283.125,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "methods": {},
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "qx55i4ebgd-qn1d0w9v3d",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "group": "Text",
+                  "category": "widget",
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "qx55i4ebgd"
+                }
+              ],
+              "isSelected": false,
+              "height": 12283.125,
+              "isFullPage": false,
+              "path": "qx55i4ebgd",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-05-11T12:20:32.780Z",
+          "lastModifyTime": "2024-05-11T12:20:32.780Z",
+          "lastPublished": "2024-05-11T12:20:32.780Z",
+          "runingStartTime": "2024-05-11T12:20:15.890Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_baoyun",
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1716196415778.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": null,
+        "abConfig": null,
+        "rulesConfig": {},
+        "logId": "665941ca419e04553851a7eb",
+        "lastPublished": "2024-05-31T03:19:39.281Z",
+        "partner": ["w_duhaikui", "w_houyinze"],
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "663ca252dc876d896200c08f",
+        "status": 4,
+        "name": "清北家长说列表",
+        "ownerId": "w_duchun",
+        "deleted": false,
+        "editable": true,
+        "origin": null,
+        "themeGroupId": null,
+        "createdAt": "2024-05-09T10:15:46.736Z",
+        "pagepv": 0,
+        "pageuv": 0,
+        "sharepv": 0,
+        "shareuv": 0,
+        "lastModified": "2024-05-11T12:18:33.459Z",
+        "revisionId": "663ca252dc876d896200c090",
+        "revisionData": {
+          "checkLoginTriggerId": "",
+          "clazz": "project",
+          "name": "清北家长说列表",
+          "title": "清北家长说",
+          "keywords": "清北家长说",
+          "pages": [
+            {
+              "id": "unj2x9ucud",
+              "clazz": "page",
+              "pageTitle": "",
+              "bgColor": "rgba(255,236,199,1)",
+              "bgSizeScale": 200,
+              "widgets": [
+                {
+                  "id": "ld1uj10d4h",
+                  "name": "图片-7",
+                  "type": "Image",
+                  "height": 319.875,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/QWkST1GA36DCT0y4Nnwfn-1715429473262.png",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 1023.875,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "unj2x9ucud-ld1uj10d4h",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "unj2x9ucud"
+                },
+                {
+                  "id": "ihhtduaodv",
+                  "name": "图片-8",
+                  "type": "Image",
+                  "height": 757.875,
+                  "top": 266,
+                  "data": {
+                    "url": "https://m.wen-su.com/resource/0c2q7uYoZEtvA7JMULjS6-1715429479558.png",
+                    "viewBigPic": false
+                  },
+                  "pageWidth": 375,
+                  "pageHeight": 1023.875,
+                  "condition": "",
+                  "originName": "图片",
+                  "minHeight": 30,
+                  "path": "unj2x9ucud-ihhtduaodv",
+                  "isFullPage": false,
+                  "oldHeight": "",
+                  "icon": "picture",
+                  "category": "Image",
+                  "group": "Image",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "unj2x9ucud"
+                },
+                {
+                  "id": "wmtop84q77",
+                  "name": "热区-3",
+                  "type": "HotArea",
+                  "location": "screen",
+                  "width": 345,
+                  "height": 121,
+                  "top": 589,
+                  "left": 15,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "lqx1sfl79d",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://m.wen-su.com/663f0e22dc876d896200c0a2.html",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1023.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "unj2x9ucud-wmtop84q77",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "unj2x9ucud",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false
+                },
+                {
+                  "id": "m8xrjqr9de",
+                  "name": "热区-1",
+                  "type": "HotArea",
+                  "location": "screen",
+                  "width": 346,
+                  "height": 127,
+                  "top": 287,
+                  "left": 15,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "som79lrlji",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://m.wen-su.com/663edc97419e04553851a758.html",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1023.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "unj2x9ucud-m8xrjqr9de",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "unj2x9ucud"
+                },
+                {
+                  "id": "ec9o26s9ip",
+                  "name": "热区-2",
+                  "type": "HotArea",
+                  "location": "screen",
+                  "width": 342,
+                  "height": 120,
+                  "top": 444,
+                  "left": 20,
+                  "data": {},
+                  "triggers": [
+                    {
+                      "id": "3a1d9h9xtt",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://m.wen-su.com/663ee0d3419e04553851a75e.html",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1023.875,
+                  "condition": "",
+                  "version": "0.0.2",
+                  "originName": "热区",
+                  "minHeight": 30,
+                  "path": "unj2x9ucud-ec9o26s9ip",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "widgetUrl": "https://res.wen-su.com/snapshot/1697715203633.png",
+                  "isInner": true,
+                  "useLifecycle": false,
+                  "useRem": false,
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "unj2x9ucud"
+                },
+                {
+                  "id": "3po8u4ebj4",
+                  "name": "吸底按钮-2",
+                  "type": "FixedButton",
+                  "location": "screen",
+                  "align": "center-bottom",
+                  "height": 60,
+                  "top": 963.875,
+                  "bgColor": "rgba(10,0,0,0)",
+                  "bgImage": "https://m.wen-su.com/resource/QJ6pD9buksENowUj-hoYt-1715420903963.gif",
+                  "data": {
+                    "text": "",
+                    "color": "rgba(255, 255, 255, 0)",
+                    "fontSize": 8,
+                    "verticalAlign": "center",
+                    "horizontalAlign": "center"
+                  },
+                  "triggers": [
+                    {
+                      "id": "fjbd8h5wtw",
+                      "clazz": "trigger",
+                      "type": "Redirect",
+                      "event": "click",
+                      "showCount": false,
+                      "count": 1,
+                      "client": ["jzh", "wx", "wxmini", "other"],
+                      "platform": ["iOS", "android", "other"],
+                      "data": {
+                        "url": "https://artemis.xue.wen-su.com/wx50/1700568974?source=1700568974&site_id=1009111&adsite_id=17566244",
+                        "parameter": false,
+                        "redirectType": "default"
+                      },
+                      "version": ""
+                    }
+                  ],
+                  "pageWidth": 375,
+                  "pageHeight": 1023.875,
+                  "borderRadius": 4,
+                  "condition": "",
+                  "locked": true,
+                  "version": "0.0.2",
+                  "originName": "吸底按钮",
+                  "minHeight": 30,
+                  "path": "unj2x9ucud-3po8u4ebj4",
+                  "isFullPage": false,
+                  "oldHeight": 60,
+                  "category": "widget",
+                  "group": "Text",
+                  "isLoaded": true,
+                  "isInLayer": false,
+                  "parentPath": "unj2x9ucud",
+                  "useRem": false
+                }
+              ],
+              "isSelected": true,
+              "height": 1023.875,
+              "isFullPage": false,
+              "triggers": [
+                {
+                  "id": "t4jbk7dr49",
+                  "clazz": "trigger",
+                  "type": "SendLog",
+                  "event": "willmount",
+                  "showCount": false,
+                  "count": 1,
+                  "client": ["jzh", "wx", "wxmini", "other"],
+                  "platform": ["iOS", "android", "other"],
+                  "data": {
+                    "carryUrlQuery": false,
+                    "clickid": "",
+                    "options": {}
+                  },
+                  "version": ""
+                }
+              ],
+              "path": "unj2x9ucud",
+              "variableStore": {},
+              "dataBox": {
+                "dataOrigin": "json",
+                "responseData": {},
+                "params": [],
+                "requestUrl": "",
+                "method": "POST"
+              }
+            }
+          ],
+          "createdAt": "2024-05-09T10:15:49.306Z",
+          "lastModifyTime": "2024-05-11T09:48:44.649Z",
+          "lastPublished": "2024-05-09T10:15:49.306Z",
+          "runingStartTime": "2024-05-09T10:15:38.766Z",
+          "runingEndTime": "2099-01-01T00:00:00.763Z",
+          "variableStore": {},
+          "dataBox": {
+            "dataOrigin": "json",
+            "responseData": {},
+            "params": [],
+            "requestUrl": "",
+            "method": "POST"
+          },
+          "pageState": {},
+          "bgImage": "",
+          "bgSize": "auto",
+          "bgSizeScale": 100,
+          "bgImagePosition": "center-center",
+          "bgImageRepeat": "none",
+          "rulesConfig": {},
+          "editorType": "project",
+          "checkLogin": false,
+          "shareConfig": {
+            "clazz": "share",
+            "shareTitle": "网校就上希望优课",
+            "shareContent": "",
+            "shareUrl": "",
+            "shareImgUrl": "https://m.xiwang.com/resource/zaowushenicon-1655691379031.png",
+            "shareWidget": "",
+            "showModal": false,
+            "modalWidget": "",
+            "menuItem": [
+              "onMenuShareTimeline",
+              "onMenuShareAppMessage",
+              "onMenuShareQQ",
+              "onMenuShareQZone"
+            ],
+            "getUserInfo": false,
+            "wxMiniId": "gh_c46843a58e20",
+            "wxMiniPath": "",
+            "wxMiniImageUrl": ""
+          },
+          "widgetLibraryVisible": false,
+          "componentPlat": "h5",
+          "miniProgramId": "gh_de755964442e",
+          "width": 375,
+          "height": 679,
+          "dataUrl": "",
+          "descUrl": "",
+          "editable": true,
+          "ownerId": "w_duchun",
+          "themeId": null
+        },
+        "parentId": "663ca2469c9aff9062809270",
+        "roleId": null,
+        "config": {
+          "hasFormWidget": false
+        },
+        "version": "3.0",
+        "poster": "https://res.wen-su.com/snapshot/1715429913772.png",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "client": ["jzh", "wx", "wxmini", "other"],
+        "application": null,
+        "tags": ["62a1d72709a1cdd508211033"],
+        "abConfig": null,
+        "rulesConfig": {},
+        "logId": "663f6219dc876d896200c0b4",
+        "lastPublished": "2024-05-11T12:18:33.727Z",
+        "partner": ["w_duhaikui", "w_baoyun", "w_houyinze"],
+        "_themeId": null,
+        "_themes": []
+      }
+    ],
+    "folderInfoMap": {},
+    "breadcrumbList": [
+      {
+        "_id": "663ca2469c9aff9062809270",
+        "name": "清北家长说",
+        "ownerId": "w_duchun",
+        "partner": ["w_duchun", "w_duhaikui", "w_baoyun", "w_houyinze"],
+        "isFolder": true,
+        "version": "3.0",
+        "createdAt": "2024-05-09T10:15:34.301Z",
+        "lastModified": "2024-11-07T13:42:07.356Z",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "parentId": null
+      }
+    ]
+  }
+}

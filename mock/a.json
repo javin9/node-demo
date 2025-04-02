@@ -1,0 +1,153 @@
+{
+  "errno": 0,
+  "msg": "ok",
+  "data": {
+    "total": 1,
+    "list": [
+      {
+        "_id": "670e3f6de45ecc4f36aeaefb",
+        "name": "模版",
+        "ownerId": "w_qiushuxuan",
+        "partner": ["w_qiushuxuan", "w_houyinze", "w_duhaikui"],
+        "isFolder": true,
+        "version": "3.0",
+        "createdAt": "2024-10-15T10:09:49.538Z",
+        "lastModified": "2024-12-10T03:42:47.900Z",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "parentId": null,
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "6641e3d8dc876d896200c0c1",
+        "name": "爆品课试听+教师",
+        "ownerId": "w_baoyun",
+        "partner": ["w_baoyun", "w_duhaikui", "w_houyinze"],
+        "isFolder": true,
+        "version": "3.0",
+        "createdAt": "2024-05-13T09:56:40.658Z",
+        "lastModified": "2024-11-11T08:08:12.431Z",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "parentId": null,
+        "_themeId": null,
+        "_themes": []
+      },
+      {
+        "_id": "663ca2469c9aff9062809270",
+        "name": "清北家长说",
+        "ownerId": "w_duchun",
+        "partner": ["w_duchun", "w_duhaikui", "w_baoyun", "w_houyinze"],
+        "isFolder": true,
+        "version": "3.0",
+        "createdAt": "2024-05-09T10:15:34.301Z",
+        "lastModified": "2024-11-07T13:42:07.356Z",
+        "userDeptId": "625d0bf51102be269d68d574",
+        "parentId": null,
+        "_themeId": null,
+        "_themes": []
+      }
+    ],
+    "folderInfoMap": {
+      "6641e3d8dc876d896200c0c1": {
+        "_id": "6641e3d8dc876d896200c0c1",
+        "count": 15,
+        "list": [
+          {
+            "_id": "6641e3e1a58316766206c89c",
+            "origin": null,
+            "parentId": "6641e3d8dc876d896200c0c1",
+            "poster": "https://res.wen-su.com/snapshot/1718709468231.png",
+            "abConfig": null
+          },
+          {
+            "_id": "664607a29c9aff90628092b1",
+            "origin": null,
+            "parentId": "6641e3d8dc876d896200c0c1",
+            "poster": "https://res.wen-su.com/snapshot/1718709441275.png",
+            "abConfig": null
+          },
+          {
+            "_id": "66460864419e04553851a7a6",
+            "origin": null,
+            "parentId": "6641e3d8dc876d896200c0c1",
+            "poster": "https://res.wen-su.com/snapshot/1718709390949.png",
+            "abConfig": null
+          },
+          {
+            "_id": "664608eedc876d896200c0df",
+            "origin": null,
+            "parentId": "6641e3d8dc876d896200c0c1",
+            "poster": "https://res.wen-su.com/snapshot/1718709364683.png",
+            "abConfig": null
+          }
+        ]
+      },
+      "670e3f6de45ecc4f36aeaefb": {
+        "_id": "670e3f6de45ecc4f36aeaefb",
+        "count": 5,
+        "list": [
+          {
+            "_id": "670e3f84a9853f67365dcc2d",
+            "origin": "",
+            "parentId": "670e3f6de45ecc4f36aeaefb",
+            "poster": "https://res.wen-su.com/snapshot/1706238381608.png"
+          },
+          {
+            "_id": "670e3f8dc5ee6d7f360af911",
+            "origin": null,
+            "parentId": "670e3f6de45ecc4f36aeaefb",
+            "poster": "https://res.wen-su.com/snapshot/1733802168180.png",
+            "abConfig": null
+          },
+          {
+            "_id": "6756a96d8e044f6d3651d0ce",
+            "origin": "",
+            "parentId": "670e3f6de45ecc4f36aeaefb",
+            "poster": "https://res.wen-su.com/snapshot/1741749864161.png"
+          },
+          {
+            "_id": "67b5827ad1ec2a6f51b4aeb9",
+            "origin": "",
+            "parentId": "670e3f6de45ecc4f36aeaefb",
+            "poster": "https://res.wen-su.com/snapshot/1740711188637.png"
+          }
+        ]
+      },
+      "663ca2469c9aff9062809270": {
+        "_id": "663ca2469c9aff9062809270",
+        "count": 10,
+        "list": [
+          {
+            "_id": "663ca252dc876d896200c08f",
+            "origin": null,
+            "parentId": "663ca2469c9aff9062809270",
+            "poster": "https://res.wen-su.com/snapshot/1715429913772.png",
+            "abConfig": null
+          },
+          {
+            "_id": "663edc97419e04553851a758",
+            "origin": null,
+            "parentId": "663ca2469c9aff9062809270",
+            "poster": "https://res.wen-su.com/snapshot/1728726329125.png",
+            "abConfig": null
+          },
+          {
+            "_id": "663ee0d3419e04553851a75e",
+            "origin": null,
+            "parentId": "663ca2469c9aff9062809270",
+            "poster": "https://res.wen-su.com/snapshot/1728726291362.png",
+            "abConfig": null
+          },
+          {
+            "_id": "663f0e22dc876d896200c0a2",
+            "origin": null,
+            "parentId": "663ca2469c9aff9062809270",
+            "poster": "https://res.wen-su.com/snapshot/1728726314454.png",
+            "abConfig": null
+          }
+        ]
+      }
+    },
+    "breadcrumbList": []
+  }
+}
